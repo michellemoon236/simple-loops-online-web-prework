@@ -12,7 +12,8 @@ def loop_iterator(number_of_times)
   loop do
     number_of_times +=l 
     puts "Welcome to Flatiron School's Web Development Course!"
-    break if number_of_times == 7
+    if number_of_times >= 7
+      break
   end 
   end
 end
